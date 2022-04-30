@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>cyberX | pocetna</title>
+      	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="forcyberx.png" type="image/icon type">
+	<link rel="stylesheet" href="https://unpkg.com/jquery.terminal/css/jquery.terminal.min.css"/>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://unpkg.com/jquery.terminal/js/jquery.terminal.min.js"></script>
+</head>
+<body id="body">
+<script>
+
+</script>
+
+
+
+<div style="justify-content: center;">
+<div class="topg" id="backgroundd">
+	<script>
+		merilo();
+		 function sleep(milliseconds) {  
+      			return new Promise(resolve => setTimeout(resolve, milliseconds));}  
+      			
+      		async function merilo(){
+		for (;;) {
+		var size = window.innerHeight;
+		var size2 = "300"
+		final = size + "px"
+
+		document.getElementById("backgroundd").style.height = final;
+		await sleep(1000);      		
+		
+		
+		}	
+      		}
+	</script>
+<div class="topgin" id="header">
+	<!--<a class="nava" onclick="mynav()">Nav</a>-->
+<div style="display: flex;">
+	
+	<img class="img1" src="toplogo.png">
+	<img class="img3" onclick="mynav()" src="tree.png">
+	
+	<a class="a1" href="pocetna.html">pocetna</a>
+	<a class="a2" href="novosti.html">novosti</a>
+	<a class="a3" href="softvare.html">softvare</a>
+	<a class="a4" href="o_nama.html">o nama</a>
+	</div>
+	
+	
+	<div style="float: right; display: flex;">
+	<a class="a5" href="pocetna.html">Bosanski</a>
+	<p class="a6">|</p>
+	<a class="a7" href="home.html">English</a>
+	</div>
+</div>
+	<div id="hide">
+			<a class="an1" href="pocetna.html">pocetna</a>
+			<a class="an2" href="novosti.html">novosti</a>
+			<a class="an3" href="softvare.html">softvare</a>
+			<a class="an4" href="o_nama.html">o nama</a>
+			<a class="an5" href="home.html">English</a>
+			<a class="an6" href="pocetna.html">Bosanski</a>
+	</div>
+
+
+
+
+<script>
+i = 0;
+lo = true
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+    document.getElementById("header").style.backgroundColor = "#181818";
+     document.getElementById("header").style.position = "sticky";
+
+     
+  } else if (lo != null) {
+    document.getElementById("header").style.backgroundColor = "rgb(0, 0, 0, 0.0)";
+  }
+} 
+
+	function mynav(){
+		console.log("~/h_a_arqw_wer_sdf_123.html");
+		if(i == 0){
+			document.getElementById("header").style.backgroundColor = "#181818";
+			
+			document.getElementById("hide").style.display = "block";
+			i++
+			lo=null
+			
+		}
+		else if(i == 1){
+		document.getElementById("hide").style.display = "none";
+		 document.getElementById("header").style.backgroundColor = "rgb(0, 0, 0, 0.0)";
+			i--
+			lo= true
+		} 
+			
+	}
+</script>
+<div id="later">
+<h1 style="color: white;">Alternativa. Otvoreno i besplatno.</h1>
+<p>Ovdje u cyberX-u razvijamo softver otvorenog koda, besplatan, bez prikupljanja podataka, oglasa ili pretplate samo pod gnu opštom javnom licencom v2.</p>
+<button onclick="location.href='joinus.html'" class="joinus">pridruži nam se</button>
+</div>
+
+
+<div style="display: flex; color: white; justify-content: center; margin-top: 250px;">
+<div class="tohide" style="padding: 7px; border: 1px solid white; border-right: none; width: 540px; height: auto; margin-top: 53px; margin-bottom: 53px; background-color: rgb(0,0,0,0.6)">
+<h1 style="color: white;">Alternativa. Otvoreno i besplatno.</h1>
+<p>Ovdje u cyberX-u razvijamo softver otvorenog koda, besplatan, bez prikupljanja podataka, oglasa ili pretplate samo pod gnu opštom javnom licencom v2.</p>
+<button onclick="location.href='joinus.html'" class="joinus">pridruži nam se</button>
+</div>
+
+<div class="tohide">
+<asd style="border: 5px solid white; border-left: 1px solid white; none; width: 600px; height: 300px; opacity: 0.7;">
+	<script>
+	$('asd').terminal({
+	    pomoc: function() {
+		this.echo("Dostupne komande\n pomoc\n cxc\n pridruzi_se\n tajna");
+	    },
+	    pridruzi_se: function() {
+	    	this.clear();
+	    	this.echo("Već ste... Ok, evo linka https://cyberx.github.io/joinus");
+	    },
+	    cxc: function() {
+	    	this.clear();
+	    	this.echo("pre svega, zdravo. Šta je cxc? to je skraćenica za \"CyberX kod\" Pruža prilagodljiv programski jezik, školjku/konzolu sa Windows komandama. Promjena boje naredbom o da.");
+	    },
+	    tajna: function() {
+	    	this.clear();
+	    	this.echo("Zdravo. Jeste li spremni da čujete tajnu? OK SPREMNI? IDEMO!... negdjenacyberxwebstranicijeskrivenaporuka. Sretno :)");
+	    }
+	
+	}, 
+	
+	
+	{
+	    greetings: '  ▄▄█▀▀▀█▄████▀   ▀██▀█▄█▀▀▀█▄▄\n▄██▀     ▀█ ███▄  ▄█  █▀     ▀██▄\n██▀       ▀  ▀██▄█▀  ▀        ▀██\n██             ███             ██\n██▄          ▄█▀▀██▄          ▄██\n▀██▄     ▄▀ ▄█   ▀██▄ ▀▄     ▄██▀\n  ▀▀█████▀▄██▄▄  ▄▄███▄▀█████▀▀\n CxC shell Demo. Preuzmite cxc na https://cyberx.ba/cxc/. Unesite pomoć za komande'
+	});
+	</script>
+	
+
+
+</asd>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<div class="sdiv">
+
+
+<div class="sdiv2">
+
+<div class="sdiv2in">
+
+	<img src="code.png" style="height: auto; max-height: 150px;">
+	<h1 style="color: white;">SOFTvARE</h1>
+	<p>Nabavite naš softver, koristite ga ili ga modificirajte i distribuirajte. Pruža se samo pod GNU opštom javnom licencom v2. Isprobajte cxc, naš programski jezik, naš glavni softver.</p>
+</div>
+
+
+<div class="sdiv2in">
+
+	<img src="question.png" style="height: auto; max-height: 150px;">
+	<h1 style="color: white;">zašto</h1>
+	<p>Jer želimo nešto drugačije. Zato što želimo besplatne programe otvorenog koda, bez pretplate. Koji su dostupni na većini uređaja.</p>
+</div>
+
+
+<div class="sdiv2in">
+
+	<img src="hands.png" style="height: auto; max-height: 150px;">
+	<h1 style="color: white;">PRIDRUŽI NAM SE</h1>
+	<p>CyberX je neprofitna zajednica jer ne prodajemo svoj softver. Ali prihvatamo donacije. donirajte za podršku ili nam se pridružite da zajedno kodiramo.</p>
+</div>
+
+</div>
+
+
+<div class="yt">
+<div class=video>
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/kRF5JO3ISaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="live" >
+<h1 style="color: white;">Gledajte kako kodiramo uživo</h1>
+<p>Dođite da nas gledate uživo kako razvijamo cXc naš glavni softver svake nedjelje u 6:00 UTC na YouTubeu.</p>
+<p>Pridružite nam se da cXc postane zajednica, obavezno nam pošaljite svoja mišljenja, pošaljite nam recenzije i preporuke i nastavićemo da radimo na poboljšanju našeg softvera. Ili nam se pridružite i razvijajte softver zajedno uživo ovdje.</p>
+
+<p>Vaše poruke moraju biti u skladu sa općeprihvaćenim standardima pristojnosti i morala. Poštuj svakoga. Dont spam. Budi dobar. Uživajte.</p>
+<input style="background-color: transparent; border: none; color: white; font-size: 20px; width: auto;" id="asd">
+  <script type = "text/javascript">
+  	kolko();
+  	  function sleep(milliseconds) {  
+      return new Promise(resolve => setTimeout(resolve, milliseconds));
+   }  
+   
+  	async function kolko(){
+  	for(;;){
+	const dateTime = new Date();
+	let utcDate = dateTime.toUTCString();
+
+	a = document.getElementById("asd");
+	a.value = utcDate;
+  	await sleep(1000);
+  	}
+  	
+  	
+  	}
+  
+  </script>  
+</div>
+</div>
+
+
+<div class="irc">
+
+<div class="live2">
+	<h1 style="color: white;">Dođi razgovarati s nama sada?</h1>
+<p>Ovdje je <a style="color: lightblue;" href="https://kiwiirc.com">kiwi IRC</a> klijenta za povezivanje sa nama</p>
+<p>Sve što trebate je da unesete svoj jedinstveni nadimak, a trebate uneti unos kanala #cyberX i kliknuti na povezivanje.</p>
+<p>Vaše poruke moraju biti u skladu sa općeprihvaćenim standardima pristojnosti i morala. Poštuj svakoga. Dont spam. Budi dobar. Uživajte.</p>
+</div>
+<div class="ircc">
+<iframe width="100%" height="100%" onLoad="self.scrollTo(0,0)" src="https://web.libera.chat/" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+</div>
+
+
+
+
+<br>
+
+
+
+<div class="bottominfo">
+	<p style="margin-left: 5px; margin-right: 5px;">CyberX Bosnia</p>
+	
+	<p style="margin-left: 5px; margin-right: 5px;">cyberx.ba@proton.me</p>
+</div>
+
+
+
+
+
+
+</div>
+</body>
+</html>
+
+
+
+
+

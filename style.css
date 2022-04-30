@@ -1,0 +1,493 @@
+body {
+	background: radial-gradient(#1f1f1f,#212121, #000000);
+	font-family: sans-serif;
+	margin: 0px;
+
+}
+
+.topg {
+
+	justify-content: center;
+	background-image: url(main.gif);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	max-height: 1080px;
+
+}
+.topgin {
+
+	z-index: 2;
+	justify-content: center;
+	top: 0px;
+	height: 78px;
+	display: flex;
+	transition: 0.5s ease;
+	
+}
+
+.top {
+	top: 0px;
+	display: flex;
+	position: sticky;
+	height: 80px;
+	background-color: #111111;
+}
+
+.joinus{
+	width: 130px;
+	height: 25px;
+	background-color: green;
+	border: none;
+	cursor: pointer;
+
+}
+.joinus2{
+	width: 130px;
+	height: 25px;
+	background-color: green;
+	border: none;
+	cursor: pointer;
+
+}
+
+
+.joinus:hover{
+	background-color: darkgreen;
+	color: black;
+	border: 1px solid red;
+}
+
+.bormain {
+	display: flex;
+	justify-content: center;
+	max-width: 1600px;
+	max-height: 500px;
+	border: 1px solid white;
+}
+.main {	
+	display: flex;
+	justify-content: center;
+	text-align: center;		
+	cursor: pointer;
+}
+
+.a1, .a2, .a3, .a4 {
+	color: #ffffff;
+	text-decoration: none;
+	transition: 1s ease;
+	margin: 25px;
+	
+
+
+}
+.a5 {
+	color: white;
+	margin-top: 25px;
+	margin-left: 25px;
+}
+.a5:hover {
+	
+	opacity: 0.7;
+}
+.a6{
+	margin-top: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+.a7 {
+	color: white;
+	margin-top: 25px;
+
+}
+.a7:hover {
+		
+	opacity: 0.7;
+}
+.a1:hover, .a2:hover, .a3:hover, .a4:hover {
+	transition: 0.5s ease;
+	color: green;
+
+
+}
+p{
+	color: white;
+	font-size: 15px;
+}
+.about {
+	font-size: 35px;
+
+}
+.button1 {
+	background-color: #111111;
+	height: 25px;
+	width: 100px;
+	color: white;
+}
+.button2 {
+
+	transition: 0.5s ease;
+	background-color: white;
+	padding: 5px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+}
+.button2:hover {
+	font-size: 25px;
+	background-color: green;
+	border: none;
+	transition: 0.5s ease;
+}
+.img1 {
+	margin-top: 10px;
+	height: 60px;
+}
+.img2 {
+	width: 20%;
+}
+.con{
+	min-height: 300px;
+  	display: flex;
+	justify-content: center;
+
+}
+.topsft1{
+	transition: .5s ease;
+	color: white;
+	border: 1px solid #181818;
+	width: 33%;
+	cursor: pointer;
+	background-image: url(second.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+
+
+}
+.topsft1:hover{
+  	opacity: 0.6;
+	transition: .5s ease;
+}
+.topsft2{
+	transition: .5s ease;
+	color: white;
+	border: 1px solid #181818;
+	width: 33%;
+	cursor: pointer;
+	background-image: url(first.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+
+}
+.topsft2:hover{
+  	opacity: 0.6;
+	transition: .5s ease;
+}
+
+
+.topsft3{
+	transition: .5s ease;
+	color: white;
+	border: 1px solid #181818;
+	width: 33%;
+	cursor: pointer;
+	background-image: url(third.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+
+}
+.topsft3:hover{
+  	opacity: 0.6;
+	transition: .5s ease;
+}
+
+
+
+.news1{
+	margin-left: 10px;
+	float: left;
+}
+.separator {
+	opacity: 0.4;
+	max-width: 400px;
+}
+h1 {
+	color: green;
+}
+
+.terma {
+	
+	margin-top: 100px;
+	margin-left: 100px;
+	
+
+	
+
+	display: flex;
+	width: 600px;
+	height: 300px;
+	border: 5px solid white;
+
+
+}
+
+.nava{
+	display: none;
+
+}
+
+#hide {
+	transition: 1s ease;
+	z-index: 1;
+	top: 78px;
+	position: sticky;
+	text-align: center;
+	background-color: #181818;
+	display: none;
+	padding: 10px;
+}
+#later {
+	display: none;
+}
+
+
+
+
+.sdiv{
+	justify-content: center;
+    	background-image: url(main22.png);
+    	background-size: cover;
+    	background-repeat: no-repeat;
+	background-position: center center;
+
+}
+.sdiv2 {
+
+	display: flex;
+	justify-content: center;
+}
+.sdiv2in {
+
+	text-align: center;
+	color: white;
+	margin: 50px;
+	width: 400px;
+}
+
+
+.yt{
+	display: flex;
+	justify-content: center;
+}
+
+
+.live {
+
+	width: 600px;
+	margin: 20px;
+}
+.live2 {
+
+	width: 600px;
+	margin: 20px;
+}
+.video {
+	width: 600px;
+	min-width: 100px;
+	height: 400px;
+
+}
+.irc {
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+
+
+}
+.ircc {
+	width: 600px;
+	min-width: 100px;
+	height: 450px;
+
+}
+
+.img3 {
+	display: none;
+}
+
+.cont2 {
+	text-align: center;
+
+}
+
+.sft1 {
+	
+
+	border-radius: 20px;
+	border: 1px solid white;
+	color: white;
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #101010;
+	padding: 10px;
+ 	
+}
+
+.sft2 {
+	border-radius: 20px;
+	border: 1px solid white;
+	color: white;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: #101010;
+}
+.sft1, .sft3 {
+	margin-left: 500px;
+	margin-right: 500px;
+}
+.sft3 {
+	border-radius: 20px;
+	border: 1px solid white;
+	color: white;
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #101010;
+	padding: 10px;
+}
+
+.aboutcon {
+	text-align: center;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+.bottominfo {
+	text-align: center;
+	background-color: black;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.innews {
+	text-align: center;
+}
+@media only screen and (max-width: 900px) {
+
+
+.sft1, .sft3 {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.a1,.a2,.a3,.a4,.a5,.a6,.a7 {
+display: none;
+
+
+}
+.nava, #later {
+	display: block;
+}
+#later {
+	margin-top: 100px;
+	text-align: center;
+}
+.an1,.an2,.an3,.an4 {
+	display: block;
+	color: white;
+	margin: 15px;
+	font-size: 25px;
+
+}
+.an5, .an6 {
+	font-size: 15px;
+	margin: 10px;
+}
+.tohide{
+display: none;
+}
+
+
+.sdiv2{
+	display: table;
+}
+
+.sdiv2in {
+	width: auto;
+	margin: 15px;
+}
+
+.yt{
+	display: table;
+}
+.live {
+	text-align: center;
+	margin: 0px;
+	width: auto;
+}
+.video {
+	height: auto;
+	width: auto;
+}
+.irc{
+	
+	display: table;
+}
+.live2 {
+	text-align: center;
+	margin: 0px;
+	width: auto;
+}
+.ircc {
+	height: 450px;
+	width: auto;
+}
+.topgin{
+	top: 0px;
+	height: 78px;
+	
+}
+.img3 {
+
+	display: block;
+	margin: 25px;
+	margin-left: 100px;
+	height: 25px;
+}
+.con{
+  	display: block;
+
+}
+
+.topsft1, .topsft2, .topsft3 {
+width: 99%;
+}
+.img2 {
+	width: 80%;
+}
+.aboutcon {
+	text-align: center;
+	margin-left: 24px;
+	margin-right: 24px;
+}
+.bottominfo {
+display: grid;
+}
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+.sft1, .sft3 {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+
+}
